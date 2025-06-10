@@ -43,6 +43,7 @@ The analysis is based on comprehensive employment data covering:
 ## Visualization Link  
 
 This dashboard helps policymakers, economists, and business leaders understand employment dynamics across the UK during this period, identifying which sectors and locations were driving job growth or experiencing declines.
+
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/ad3774d1-6c25-4aa3-be30-4c99e6d987e2" />
 
 [Link to my Tableau Dashboard](https://public.tableau.com/app/profile/logambigai.kuppusamy/viz/UKEmploymentData_17466118827160/UKDashboard)  
