@@ -1,64 +1,83 @@
-# 🇬🇧 UK Employment Trends Dashboard (Tableau)
+# 🇬🇧 UK Employment Data Visualization (2011–2014)
 
-📊 This interactive Tableau dashboard visualizes UK employment changes from 2011, focusing on industry and city-level patterns.
+This Tableau project explores employment trends across UK industries and cities between **2011 and 2014** using EMSI data.  
+It highlights how employment numbers changed across different sectors and geographic regions.
 
 🔗 **Live Dashboard**:  
-👉 [View it on Tableau Public](https://public.tableau.com/app/profile/logambigai.kuppusamy/viz/UKEmploymentData_17466118827160/UKDashboard)
+👉 [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/logambigai.kuppusamy/viz/UKEmploymentData_17466118827160/UKDashboard)
 
 ---
 
-## 📌 Dashboard Highlights
+## 📊 Visualizations
 
-| 🔹 Visualization | 🔍 Description |
-|------------------|----------------|
-| 🏭 **Top 10 Industries by Job Change** | Ranks industries with the highest employment growth or decline since 2011 |
-| 🌆 **Average % Change by City** | Visualizes city-level average employment change as a heatmap |
-| 🧑‍💼 **Top Employment by City (2011)** | Shows industries with the highest employment levels in major cities during 2011 |
-| 🔺 **Top 10 Industry Changes** | Highlights sectors with the most significant shifts in employment |
+### 1. 🏭 Top 10 Industries by Employment Change (2011–2014)
+
+This bar chart shows the **top 10 industries** with the **largest positive or negative changes** in total employment.
+
+📷 _Screenshot Preview_  
+![Top 10 Industries](./assets/top10-industries-change.png)
+
+---
+
+### 2. 🌍 Average % Change in Employment by City
+
+This map or bar view shows **average percentage employment change** across UK cities — highlighting **regional growth or decline**.
+
+📷 _Screenshot Preview_  
+![Avg % Change by City](./assets/avg-change-by-city.png)
+
+---
+
+### 3. 🧱 Top 10 Sub-Industries by Change in Employment (2011–2014)
+
+A more detailed look at **sub-industries**, showing which specific sectors saw the most notable changes during the period.
+
+📷 _Screenshot Preview_  
+![Top 10 Sub-Industries](./assets/top10-sub-industries.png)
+
+---
+
+### 4. 🏙️ Top 10 Cities by Total Number of Jobs
+
+This view lists cities with the **highest total employment** as of 2014, helping highlight major economic centers.
+
+📷 _Screenshot Preview_  
+![Top 10 Cities by Jobs](./assets/top10-cities.png)
 
 ---
 
 ## 📁 Dataset
 
-- **Source**: EMSI Job Change UK (2-digit level)
-- **Format**: CSV (`EMSI_JobChange_UK(2 digit).csv`)
-- **Key Columns**:
+- **Source**: EMSI Job Change (UK, 2-digit level)
+- **Years Covered**: 2011–2014
+- **Format**: CSV  
+- **Key Fields**:
   - `City`
-  - `Industry`
+  - `Industry` / `Sub-Industry`
   - `2011 Jobs`
-  - `2021 Jobs`
+  - `2014 Jobs`
   - `% Change`
   - `Job Change`
 
 ---
 
-## 🖼️ Dashboard Screenshot
+## 📈 Key Insights
 
-> *(Optional: add a screenshot of your Tableau dashboard here for preview)*
-
-![Dashboard Preview](./assets/UKEmploymentDashboard.png)
-
----
-
-## 🚀 Insights Gained
-
-- 💼 Certain industries like **Healthcare** and **Tech** showed steady growth
-- 🏙️ Cities like **London** and **Manchester** saw higher-than-average job increases
-- 🏚️ Some traditional sectors (e.g., Manufacturing) showed significant declines
+- 📉 Some traditional industries experienced decline, while others like tech and healthcare saw significant growth.
+- 📍 Certain cities showed strong recovery and growth, while others remained stagnant or declined.
+- 🔍 Sub-industries offer deeper insight into sector-specific employment trends.
 
 ---
 
-## 📊 Tools Used
+## 🔧 Tools Used
 
-- **Tableau Public**: For interactive dashboards
-- **Excel / CSV**: For data cleaning and prep
-- **GitHub**: For project documentation
+- 📊 **Tableau** – Interactive dashboard creation  
+- 🐼 **Pandas/Excel** – Data cleaning and transformation  
+- 📁 **GitHub** – Documentation and version control
 
 ---
 
-## 💡 How to Use
+## ✨ Author
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/UK-Employment-Dashboard.git
-
+**Logambigai Kuppusamy**  
+🔗 [View My Tableau Profile](https://public.tableau.com/app/profile/logambigai.kuppusamy)
