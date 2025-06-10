@@ -2,10 +2,6 @@
 
 This Tableau project explores employment trends across UK industries and cities between **2011 and 2014** using EMSI data.  
 It highlights how employment numbers changed across different sectors and geographic regions.
-
-🔗 **Live Dashboard**:  
-👉 [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/logambigai.kuppusamy/viz/UKEmploymentData_17466118827160/UKDashboard)
-
 ---
 
 ## 📊 Visualizations
@@ -80,4 +76,7 @@ This view lists cities with the **highest total employment** as of 2014, helping
 ## ✨ Author
 
 **Logambigai Kuppusamy**  
-🔗 [View My Tableau Profile](https://public.tableau.com/app/profile/logambigai.kuppusamy)
+🔗 [Link to My Tableau Profile](https://public.tableau.com/app/profile/logambigai.kuppusamy)
+
+![image](https://github.com/user-attachments/assets/ab48f725-d293-4aa7-a83a-db51fed37e41)
+
