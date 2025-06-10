@@ -10,23 +10,21 @@ This Tableau dashboard analyzes UK employment trends across major cities from 20
 - Shows industries with the largest absolute changes in employment numbers  
 - Highlights both growing and declining sectors  
 - Allows comparison of employment shifts across different sectors
-<img width="593" alt="image" src="https://github.com/user-attachments/assets/c6d91c5f-50d6-48df-99a4-4db052689c16" />
+<img width="384" alt="image" src="https://github.com/user-attachments/assets/99d0f562-4850-4f8d-a4cf-709cbf596be5" />
 
 
 ### 2. Average % Change in Employment by Cities
 - Visualizes the average employment change percentage across UK cities  
 - Reveals which cities experienced overall growth or decline  
 - Enables geographic comparison of employment trends  
-
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/9c2b455e-9b9a-4e5d-a432-5cb38adfae35" />
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/12e524aa-e975-487a-aa4e-e9003afc463d" />
 
 ### 3. Top 10 Sub-Industries
 - Drills down into specific sub-sectors with the most significant changes  
 - Provides more granular insights than the industry-level view  
 - Identifies niche areas of growth or contraction
-<img width="554" alt="image" src="https://github.com/user-attachments/assets/b603e284-6b72-490e-aa9a-2d81703c3a63" />
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/45368bcc-7ce2-4690-a652-9a9d1f05272a" />
   
-
 ### 4. Top 10 Cities by Total Employment
 - Ranks cities based on overall employment numbers  
 - Shows the distribution of employment across major UK urban centers  
