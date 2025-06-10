@@ -1,82 +1,39 @@
-# 🇬🇧 UK Employment Data Visualization (2011–2014)
+# UK Employment Data Analysis (2011-2014)
 
-This Tableau project explores employment trends across UK industries and cities between **2011 and 2014** using EMSI data.  
-It highlights how employment numbers changed across different sectors and geographic regions.
----
+## Project Description
 
-## 📊 Visualizations
+This Tableau dashboard analyzes UK employment trends across major cities from 2011 to 2014, highlighting key changes in various industries. The visualization provides insights into employment growth and decline patterns during this period.
 
-### 1. 🏭 Top 10 Industries by Employment Change (2011–2014)
+## Dashboard Components
 
-This bar chart shows the **top 10 industries** with the **largest positive or negative changes** in total employment.
+### 1. Top 10 Industries by Change in Employment (2011-2014)
+- Shows industries with the largest absolute changes in employment numbers  
+- Highlights both growing and declining sectors  
+- Allows comparison of employment shifts across different sectors  
 
-📷 _Screenshot Preview_  
-![Top 10 Industries](./assets/top10-industries-change.png)
+### 2. Average % Change in Employment by Cities
+- Visualizes the average employment change percentage across UK cities  
+- Reveals which cities experienced overall growth or decline  
+- Enables geographic comparison of employment trends  
 
----
+### 3. Top 10 Sub-Industries
+- Drills down into specific sub-sectors with the most significant changes  
+- Provides more granular insights than the industry-level view  
+- Identifies niche areas of growth or contraction  
 
-### 2. 🌍 Average % Change in Employment by City
+### 4. Top 10 Cities by Total Employment
+- Ranks cities based on overall employment numbers  
+- Shows the distribution of employment across major UK urban centers  
+- Provides context for the relative size of each city's workforce  
 
-This map or bar view shows **average percentage employment change** across UK cities — highlighting **regional growth or decline**.
+## Data Source
+The analysis is based on comprehensive employment data covering:  
+- Multiple UK cities including London, Manchester, Birmingham, etc.  
+- Various industries classified by SIC codes  
+- Employment figures for 2011 and 2014  
+- Calculated changes in both absolute numbers and percentages  
 
-📷 _Screenshot Preview_  
-![Avg % Change by City](./assets/avg-change-by-city.png)
+## Visualization Link  
+[Link to my Tableau Dashboard](https://public.tableau.com/app/profile/logambigai.kuppusamy/viz/UKEmploymentData_17466118827160/UKDashboard)  
 
----
-
-### 3. 🧱 Top 10 Sub-Industries by Change in Employment (2011–2014)
-
-A more detailed look at **sub-industries**, showing which specific sectors saw the most notable changes during the period.
-
-📷 _Screenshot Preview_  
-![Top 10 Sub-Industries](./assets/top10-sub-industries.png)
-
----
-
-### 4. 🏙️ Top 10 Cities by Total Number of Jobs
-
-This view lists cities with the **highest total employment** as of 2014, helping highlight major economic centers.
-
-📷 _Screenshot Preview_  
-![Top 10 Cities by Jobs](./assets/top10-cities.png)
-
----
-
-## 📁 Dataset
-
-- **Source**: EMSI Job Change (UK, 2-digit level)
-- **Years Covered**: 2011–2014
-- **Format**: CSV  
-- **Key Fields**:
-  - `City`
-  - `Industry` / `Sub-Industry`
-  - `2011 Jobs`
-  - `2014 Jobs`
-  - `% Change`
-  - `Job Change`
-
----
-
-## 📈 Key Insights
-
-- 📉 Some traditional industries experienced decline, while others like tech and healthcare saw significant growth.
-- 📍 Certain cities showed strong recovery and growth, while others remained stagnant or declined.
-- 🔍 Sub-industries offer deeper insight into sector-specific employment trends.
-
----
-
-## 🔧 Tools Used
-
-- 📊 **Tableau** – Interactive dashboard creation  
-- 🐼 **Pandas/Excel** – Data cleaning and transformation  
-- 📁 **GitHub** – Documentation and version control
-
----
-
-## ✨ Author
-
-**Logambigai Kuppusamy**  
-🔗 [Link to My Tableau Profile](https://public.tableau.com/app/profile/logambigai.kuppusamy)
-
-![image](https://github.com/user-attachments/assets/ab48f725-d293-4aa7-a83a-db51fed37e41)
-
+This dashboard helps policymakers, economists, and business leaders understand employment dynamics across the UK during this period, identifying which sectors and locations were driving job growth or experiencing declines.
